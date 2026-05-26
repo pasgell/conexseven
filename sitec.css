@@ -33,7 +33,7 @@
 
 .corpo {
     display: flex;
-    background-image: url(../../../Pictures/WhatsApp Image 2026-05-18 at 10.49.18.jpeg);
+    background-image: url(https://conexao-assistencia.com.br/banner.png.png);
     width: 100%;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -130,8 +130,28 @@
     display:flex;
     justify-content: center;
     font-size: 18px;
+    color: #000000;
+}
+
+.atendimento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atendimento ul {
+    display: flex;
+    list-style: none;
+}
+
+.atendimento ul li a {
     color: #ffffff;
-    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.atendimento ul li a:hover {
+    color: #000000; 
 }
 
 .rodape2 {
