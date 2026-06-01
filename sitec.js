@@ -20,8 +20,6 @@ const produtos = [
     imagem: "https://s2.glbimg.com/Sdia9HsRP4V_FCb874if-ml_4is=/620x520/e.glbimg.com/og/ed/f/original/2020/08/11/31669212-8603391-a_king_eidar_duck_bathing_in_some_shallow_water-a-28_1596787696775.jpg",
 },
 
-
-
 ];
 
 let atual = 0;
