@@ -1,23 +1,23 @@
 window.onload = function(){
 const produtos = [
 {
-    nome: "teclado",
-    imagem: "https://cdn.sistemawbuy.com.br/arquivos/a4456ac015133534fb513a1cb95ceb43/produtos/67008d67b40ea/tomate-mtem105-67afa9fd461f6.png",
+    nome: "produto1",
+    imagem: "https://i.pinimg.com/236x/58/83/71/5883719edede80221436679dd1438d7d.jpg",
 },
 
 {
-    nome: "oi2",
-    imagem: "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+    nome: "produto2",
+    imagem: "https://t.ctcdn.com.br/JlHwiRHyv0mTD7GfRkIlgO6eQX8=/640x360/smart/i257652.jpeg",
 },
 
 {
-    nome: "teste",
-    imagem: "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+    nome: "produto3",
+    imagem: "https://cdn.pixabay.com/photo/2016/11/22/23/53/starfish-1851289_1280.jpg",
 },
 
 {
-    nome: "ksk",
-    imagem: "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+    nome: "produto4",
+    imagem: "https://s2.glbimg.com/Sdia9HsRP4V_FCb874if-ml_4is=/620x520/e.glbimg.com/og/ed/f/original/2020/08/11/31669212-8603391-a_king_eidar_duck_bathing_in_some_shallow_water-a-28_1596787696775.jpg",
 },
 
 
@@ -25,27 +25,26 @@ const produtos = [
 ];
 
 let atual = 0;
-const nome = document.getElementById("nome");
+const nome = document.getElementById("produto-nome");
+const imagem = document.getElementById("produto-imagem");
 
 function mostrarProduto(){
-    let produto = produto[atual];
-    nome.innerText = produto.nome;  
-} 
+    const produto = produtos[atual];
+    nome.innerText = produto.nome;
+    imagem.src = produto.imagem;
+    imagem.alt = produto.nome;
+}
 
 window.proxima = function(){
-
     atual++;
     if(atual >= produtos.length){
-
         atual = 0;
     }
-
     mostrarProduto();
 }
 window.anterior = function(){
     atual--;
     if(atual < 0){
-
         atual = produtos.length - 1;
     }
     mostrarProduto();
