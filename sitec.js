@@ -20,10 +20,6 @@ const produtos = [
     imagem: "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
 },
 
-{
-    nome: "Bkrk",
-    imagem: "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
-},
 
 
 ];
