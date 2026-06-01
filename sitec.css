@@ -135,7 +135,56 @@ html, body {
     color: #ff7300;
 }
 
-.produtos {
+/* sonion */
+
+.roda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.seta{
+    font-size: 50px;
+    background: none;
+    border: none;
+    color:white;
+    cursor: pointer;
+    transition: 0.1.5s;
+}
+
+.seta:hover{
+    transform: scale(1.2);
+}
+
+.produtoses {
+    display:flex;
+    flex-direction: column;
+}
+
+.nomess{
+    width: 25%;
+    padding: 20px;
+    border-left:3px solid #be0000;
+    color:white;
+}
+
+.imagemp {
+    background: #ff7300;
+    box-shadow: 3px 5px 20px rgb(39, 39, 39);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#nome{
+    font-size: 28px;
+}
+
+/* sonion */
+
+.produtoss {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-radius: 15px;
