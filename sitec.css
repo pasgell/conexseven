@@ -81,8 +81,8 @@ html, body {
     display: flex;
     background-color: #000000;
     width: 100%;
-    padding-top:5%;
-    padding-bottom: 8%;
+    padding-top:2%;
+    padding-bottom: 5%;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;  
 }
@@ -141,11 +141,11 @@ html, body {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .seta{
-    font-size: 50px;
+    font-size: 60px;
     background: none;
     border: none;
     color:#ff7300;
@@ -154,7 +154,7 @@ html, body {
 }
 
 .seta:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .carousel {
@@ -165,8 +165,8 @@ html, body {
 }
 
 #produto-imagem {
-    width: auto;
-    height: auto;
+    width: 520px;
+    height: 520px;
     object-fit: cover;
     border-radius: 12px;
     display: block;
@@ -208,12 +208,14 @@ html, body {
 .atendimento {
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .atendimento ul {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 9px;
 }
 
 .atendimento ul li a {

@@ -1,33 +1,43 @@
 window.onload = function(){
 const produtos = [
 {
-    nome: "Celulares",
-    imagem: "cap1.png",
+    nome: "Teclados",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap1.png?raw=true",
 },
 
 {
     nome: "Celulares",
-    imagem: "cap2.png",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap3.png?raw=true",
 },
 
 {
-    nome: "Computadores",
-    imagem: "https://cdn.pixabay.com/photo/2016/11/22/23/53/starfish-1851289_1280.jpg",
+    nome: "Headsets",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap4.png?raw=true",
 },
 
 {
-    nome: "Impressoras",
-    imagem: "https://s2.glbimg.com/Sdia9HsRP4V_FCb874if-ml_4is=/620x520/e.glbimg.com/og/ed/f/original/2020/08/11/31669212-8603391-a_king_eidar_duck_bathing_in_some_shallow_water-a-28_1596787696775.jpg",
+    nome: "Controles",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap5.png?raw=true",
 },
 
 {
-    nome: "Notebooks",
-    imagem: "https://i.pinimg.com/236x/58/83/71/5883719edede80221436679dd1438d7d.jpg",
+    nome: "Alexa",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap6.png?raw=true",
 },
 
 {
-    nome: "Computadores",
-    imagem: "https://t.ctcdn.com.br/JlHwiRHyv0mTD7GfRkIlgO6eQX8=/640x360/smart/i257652.jpeg",
+    nome: "Celulares",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap2.png?raw=true",
+},
+
+{
+    nome: "Som",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap7.png?raw=true",
+},
+
+{
+    nome: "Mouses",
+    imagem: "https://github.com/pasgell/conexseven/blob/main/cap8.png?raw=true",
 },
 
 ];
