@@ -1,23 +1,33 @@
 window.onload = function(){
 const produtos = [
 {
-    nome: "produto1",
-    imagem: "https://i.pinimg.com/236x/58/83/71/5883719edede80221436679dd1438d7d.jpg",
+    nome: "Celulares",
+    imagem: "cap1.png",
 },
 
 {
-    nome: "produto2",
-    imagem: "https://t.ctcdn.com.br/JlHwiRHyv0mTD7GfRkIlgO6eQX8=/640x360/smart/i257652.jpeg",
+    nome: "Celulares",
+    imagem: "cap2.png",
 },
 
 {
-    nome: "produto3",
+    nome: "Computadores",
     imagem: "https://cdn.pixabay.com/photo/2016/11/22/23/53/starfish-1851289_1280.jpg",
 },
 
 {
-    nome: "produto4",
+    nome: "Impressoras",
     imagem: "https://s2.glbimg.com/Sdia9HsRP4V_FCb874if-ml_4is=/620x520/e.glbimg.com/og/ed/f/original/2020/08/11/31669212-8603391-a_king_eidar_duck_bathing_in_some_shallow_water-a-28_1596787696775.jpg",
+},
+
+{
+    nome: "Notebooks",
+    imagem: "https://i.pinimg.com/236x/58/83/71/5883719edede80221436679dd1438d7d.jpg",
+},
+
+{
+    nome: "Computadores",
+    imagem: "https://t.ctcdn.com.br/JlHwiRHyv0mTD7GfRkIlgO6eQX8=/640x360/smart/i257652.jpeg",
 },
 
 ];

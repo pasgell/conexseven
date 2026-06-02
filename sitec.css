@@ -165,8 +165,8 @@ html, body {
 }
 
 #produto-imagem {
-    width: 370px;
-    height: 310px;
+    width: auto;
+    height: auto;
     object-fit: cover;
     border-radius: 12px;
     display: block;
@@ -180,22 +180,6 @@ html, body {
 #produto-nome{
     font-size: 28px;
     color: #ff7300;
-}
-
-.item2:hover {
-    color: #000000;
-    transition: 0.26s;
-    transform: scale(1.1);
-}
-
-.item2 {
-    background-color: #ff7300;
-    border: 1px solid #3b3b3b;
-    border-radius: 15px;
-    font-size: 19px;
-    color: #ffffff;
-    box-shadow: #3b3b3b;
-    padding: 20px 20px;
 }
 
 .rodape {
