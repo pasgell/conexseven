@@ -17,7 +17,7 @@ html, body {
 .logo a {
     color: #ff7300;
     font-size: 30px;
-    font-weight: 740;
+    font-weight: 760;
     text-decoration: none;
 }
 
@@ -123,7 +123,7 @@ html, body {
     background-image: url(https://img.freepik.com/premium-vector/abstract-technology-cyber-concept-vector-background_115579-1416.jpg?semt=ais_hybrid&w=740&q=80);
     background-size: cover;
     width: 100%;
-    padding-top:2%;
+    padding-top:1px;
     padding-bottom: 2px;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif; 
@@ -178,7 +178,8 @@ html, body {
     cursor: pointer;
 }
 #produto-nome{
-    font-size: 28px;
+    font-size: 23px;
+    font-style: italic;
     color: #ff7300;
 }
 
