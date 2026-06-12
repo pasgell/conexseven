@@ -2,42 +2,42 @@ window.onload = function(){
 const produtos = [
 {
     nome: "Teclados",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap1.png?raw=true",
+    imagem: "cap1.png",
 },
 
 {
     nome: "Celulares",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap3.png?raw=true",
+    imagem: "cap3.png",
 },
 
 {
     nome: "Headsets",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap4.png?raw=true",
+    imagem: "cap4.png",
 },
 
 {
     nome: "Controles",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap5.png?raw=true",
+    imagem: "cap5.png",
 },
 
 {
     nome: "Alexa",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap6.png?raw=true",
+    imagem: "cap6.png",
 },
 
 {
     nome: "Celulares",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap2.png?raw=true",
+    imagem: "cap2.png",
 },
 
 {
     nome: "Som",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap7.png?raw=true",
+    imagem: "cap7.png",
 },
 
 {
     nome: "Mouses",
-    imagem: "https://github.com/pasgell/conexseven/blob/main/cap8.png?raw=true",
+    imagem: "cap8.png",
 },
 
 ];
